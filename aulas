@@ -1,0 +1,25 @@
+Algoritmo opa
+	Dimension bancos[3] 
+	bancos[1]<-40
+	bancos[2]<-35
+	bancos[3]<-30
+	Dimension color[3]
+	color[1]<-"azul"
+	color[2]<-"verde"
+	color[3]<-"amarillo"
+	Definir alumnos Como Entero
+	Repetir
+		Escribir "Ingrese la cantidad de alumnos: "
+		Leer alumnos
+	Hasta Que alumnos<41
+	Si alumnos<=30 Entonces
+		Escribir bancos[3],color[3]
+	Fin Si
+	Si alumnos>30 && alumnos<36 Entonces
+		Escribir bancos[2],color[2]
+	Fin Si		
+	Si alumnos>35 && alumnos<41 Entonces
+		Escribir bancos[1],color[1]
+	Fin Si
+	
+FinAlgoritmo
